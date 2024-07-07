@@ -1,0 +1,22 @@
+{
+  "name": "hono-issue-3104",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/EdamAme-x/hono-issue-3104",
+  "author": "Ame_x <121654029+EdamAme-x@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@hono/node-server": "^1.12.0",
+    "@types/node": "^20.14.10",
+    "consola": "^3.2.3",
+    "hono": "^4.4.12",
+    "picocolors": "^1.0.1",
+    "timers": "^0.1.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.16.2"
+  },
+  "scripts": {
+    "start": "tsx ./websv.ts"
+  }
+}
